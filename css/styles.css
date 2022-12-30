@@ -54,8 +54,9 @@ body {
 .address-link {
   font-style: normal;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
+  color: #434455;
 }
 
 .menu-link:hover,
@@ -91,6 +92,29 @@ body {
   color: #ffffff;
   cursor: pointer;
   background-color: #4d5ae5;
+  font-family: inherit;
+}
+
+.btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #4d5ae5;
+  font-family: inherit;
+  cursor: pointer;
+  background: #f4f4fd;
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
+}
+
+.btn:hover,
+btn:focus {
+  background-color: #404bbf;
+  color: #ffffff;
 }
 
 .modal-btn:hover,
