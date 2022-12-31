@@ -1,6 +1,16 @@
 body {
-  font-family: "Roboto", sans-serif;
-  color: #434455;
+  font-family: var(--primary-font);
+  background-color: #ffffff;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+:root {
+  --primary-font: "Roboto", sans-serif;
+  --seconday-font: "Raleway", sans-serif;
+  --primary-font-color: #434455;
+  --secondary-font-color: #2e2f42;
 }
 
 .list {
@@ -29,7 +39,7 @@ body {
 
 /* ======================= HEADER ====================== */
 .cite-logo {
-  font-family: "Raleway", sans-serif;
+  font-family: var(--seconday-font);
   font-weight: 800;
   font-size: 18px;
   line-height: 1.33;
@@ -45,24 +55,17 @@ body {
 
 .menu-link {
   font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
   color: #2e2f42;
 }
 
 .address-link {
   font-style: normal;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--primary-font-color);
 }
 
 .menu-link:hover,
 .menu-link:focus {
   color: #404bbf;
-  text-decoration: underline;
 }
 
 .address-link:hover,
@@ -78,14 +81,13 @@ body {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
-  letter-spacing: 0.02em;
   color: #ffffff;
 }
 
 .modal-btn {
   font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
+  font-size: inherit;
+  line-height: inherit;
   display: flex;
   align-items: center;
   letter-spacing: 0.04em;
@@ -97,18 +99,18 @@ body {
 
 .btn {
   font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
+  font-size: inherit;
+  line-height: inherit;
   display: flex;
   align-items: center;
   text-align: center;
   letter-spacing: 0.04em;
   color: #4d5ae5;
-  font-family: inherit;
   cursor: pointer;
-  background: #f4f4fd;
   border: 1px solid #e7e9fc;
   border-radius: 4px;
+  font-family: inherit;
+  background: #f4f4fd;
 }
 
 .btn:hover,
@@ -134,26 +136,22 @@ btn:focus {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--secondary-font-color);
 }
 
 .benefits-description {
-  font-size: 16px;
-  line-height: 1.5;
   letter-spacing: 0.02em;
+  color: var(--primary-font-color);
 }
 /* ======================= /BENEFITS ====================== */
 
 /*================== ABOUT ================== */
 .about-title {
-  font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
-  letter-spacing: 0.02em;
   text-transform: capitalize;
-  color: #2e2f42;
+  color: var(--secondary-font-color);
 }
 /*==================/ABOUT ================== */
 
@@ -162,14 +160,11 @@ btn:focus {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--secondary-font-color);
 }
 
 .team-description {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
+  color: var(--primary-font-color);
 }
 
 .team {
@@ -190,7 +185,7 @@ btn:focus {
 }
 
 .footer-logo {
-  font-family: "Raleway", sans-serif;
+  font-family: var(--seconday-font);
   font-weight: 800;
   font-size: 18px;
   line-height: 1.33;
