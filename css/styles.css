@@ -2,8 +2,6 @@ body {
   font-family: var(--primary-font);
   background-color: #ffffff;
   font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
 }
 
 :root {
@@ -34,9 +32,6 @@ body {
   margin: -1px;
 }
 
-/* ======================= COMPONENTS ====================== */
-/* ======================= /COMPONENTS ====================== */
-
 /* ======================= HEADER ====================== */
 .cite-logo {
   font-family: var(--seconday-font);
@@ -56,11 +51,13 @@ body {
 .menu-link {
   font-weight: 500;
   color: #2e2f42;
+  letter-spacing: 0.02em;
 }
 
 .address-link {
   font-style: normal;
   color: var(--primary-font-color);
+  letter-spacing: 0.02em;
 }
 
 .menu-link:hover,
@@ -82,12 +79,13 @@ body {
   font-size: 56px;
   line-height: 1.07;
   color: #ffffff;
+  letter-spacing: 0.02em;
 }
 
 .modal-btn {
   font-weight: 500;
   font-size: inherit;
-  line-height: inherit;
+  line-height: 1.5;
   display: flex;
   align-items: center;
   letter-spacing: 0.04em;
@@ -100,7 +98,7 @@ body {
 .btn {
   font-weight: 500;
   font-size: inherit;
-  line-height: inherit;
+  line-height: 1.5;
   display: flex;
   align-items: center;
   text-align: center;
@@ -136,6 +134,7 @@ btn:focus {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
   color: var(--secondary-font-color);
 }
 
@@ -152,6 +151,7 @@ btn:focus {
   line-height: 1.11;
   text-transform: capitalize;
   color: var(--secondary-font-color);
+  letter-spacing: 0.02em;
 }
 /*==================/ABOUT ================== */
 
@@ -161,10 +161,12 @@ btn:focus {
   font-size: 20px;
   line-height: 1.2;
   color: var(--secondary-font-color);
+  letter-spacing: 0.02em;
 }
 
 .team-description {
   color: var(--primary-font-color);
+  letter-spacing: 0.02em;
 }
 
 .team {
